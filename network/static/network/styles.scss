@@ -1,0 +1,88 @@
+// Posts
+%general-post
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: left;
+
+    width: auto;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+%button-margins
+{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    vertical-align: middle;
+
+    font-size: x-small;
+}
+
+.button-margins
+{
+    @extend %button-margins;
+}
+
+.button-margins-post
+{
+    @extend %button-margins;
+    float: left;
+}
+
+.button-margins-follow
+{
+    @extend %button-margins;
+    margin-top: 1%;
+    font-size: small;
+}
+
+.responsive-text
+{
+    font-size: 0.8vw;
+}
+
+.general-post
+{
+    @extend %general-post;
+}
+
+.general-post-profile
+{
+    @extend %general-post;
+    overflow: auto;
+    height: auto;
+}
+
+.follow-div
+{
+    @extend %general-post;
+    
+    overflow: auto;
+    width: 50%;
+
+    text-align: center;
+    background-color: rgb(209, 233, 255);
+}
+
+.same-line-div
+{
+    float: left;
+}
+
+.nav-headers
+{
+    margin: 0.5%;
+}
+
+.left-div, .right-div
+{
+    width: 50%;
+    float: left;
+}
+
+.headings
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
